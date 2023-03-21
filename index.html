@@ -1,0 +1,182 @@
+<Html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    overflow: hidden;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    
+}
+    </style>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Juan Stuff <span class="text-primary">Shop</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li>
+                <li class="nav-item btn-group">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Brands</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Toyota</a></li>
+                            <li><a class="dropdown-item" href="#">Mitsubishi</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Nissan</a></li>
+                            <li><a class="dropdown-item" href="#">Ford</a></li>
+                            <li><a class="dropdown-item" href="#">Isuzu</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Honda</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item btn-group">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vehicles</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Brandnew</a></li>
+                        <li><a class="dropdown-item" href="#">2nd Hand</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Assume Units</a></li>
+                    </ul> 
+                </li>
+              </li>
+            </ul>
+            <form class="d-flex" role="Buy-now">
+              <button class="btn btn-outline-success" type="submit">Buy Now</button>
+            </form>
+        </div>
+      </nav>
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="th (1).jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Sports Cars</h3>
+        <p>Cheverolete Corvette</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="th.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Audi 2011</h3>
+        <p>Lets Go Ride</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="th (2).jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Welcome</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+          </div>
+        </div>
+      </nav>
+</header>
+<section class="about my-5">
+    <div class="container">
+        <div class="text-center">
+            <h1>About <span class="text-primary">Us</span></h1>
+            <hr / class="w-25 m-auto">
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <h1>What do you <Span class="text-primary">want to know?</Span></h1>
+            <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptates sint id iure, natus aut saepe neque. A, est odio.
+            </p>
+            <button type="button" class="btn btn-light"></button>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Brandnew Cars
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Second hand Cars
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     Assume Cars
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
